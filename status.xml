@@ -1,0 +1,68 @@
+<status build="phoebe 12.1.0-071" hostname="mx6.praxair.com" timestamp="20190920091402">
+<birth_time timestamp="20190826104824 (24d 22h 25m 38s)"/>
+<last_counter_reset timestamp="20160726103500"/>
+<system status="online"/>
+<oldest_message secs="262012" mid="434150163"/>
+<features>
+<feature name="McAfee" time_remaining="2592000"/>
+<feature name="External Threat Feeds" time_remaining="10995588"/>
+<feature name="Sophos" time_remaining="10995588"/>
+<feature name="Bounce Verification" time_remaining="Dormant/Perpetual"/>
+<feature name="IronPort Anti-Spam" time_remaining="10995588"/>
+<feature name="Data Loss Prevention" time_remaining="2592000"/>
+<feature name="Incoming Mail Handling" time_remaining="Dormant/Perpetual"/>
+<feature name="Outbreak Filters" time_remaining="10995588"/>
+</features>
+<counters>
+<counter name="inj_msgs" reset="246291789" uptime="6125753" lifetime="268227248"/>
+<counter name="inj_recips" reset="294738001" uptime="7607056" lifetime="319075799"/>
+<counter name="gen_bounce_recips" reset="7966975" uptime="33983" lifetime="10214870"/>
+<counter name="rejected_recips" reset="95743369" uptime="1060841" lifetime="100697354"/>
+<counter name="dropped_msgs" reset="19400895" uptime="186763" lifetime="21332799"/>
+<counter name="soft_bounced_evts" reset="41025275" uptime="99189" lifetime="41788420"/>
+<counter name="completed_recips" reset="275123849" uptime="7416908" lifetime="297510642"/>
+<counter name="hard_bounced_recips" reset="8925859" uptime="91044" lifetime="10325256"/>
+<counter name="dns_hard_bounced_recips" reset="923328" uptime="11935" lifetime="1164879"/>
+<counter name="5xx_hard_bounced_recips" reset="6401676" uptime="33293" lifetime="7111038"/>
+<counter name="filter_hard_bounced_recips" reset="306117" uptime="33296" lifetime="306909"/>
+<counter name="expired_hard_bounced_recips" reset="1294738" uptime="12520" lifetime="1742430"/>
+<counter name="other_hard_bounced_recips" reset="0" uptime="0" lifetime="0"/>
+<counter name="delivered_recips" reset="265955122" uptime="7324807" lifetime="286657310"/>
+<counter name="deleted_recips" reset="242868" uptime="1057" lifetime="528076"/>
+<counter name="global_unsub_hits" reset="0" uptime="0" lifetime="0"/>
+</counters>
+<current_ids message_id="436016535" injection_conn_id="479837085" delivery_conn_id="119160748"/>
+<rates>
+<rate name="inj_msgs" last_1_min="21661" last_5_min="25244" last_15_min="27231"/>
+<rate name="inj_recips" last_1_min="26285" last_5_min="32160" last_15_min="33432"/>
+<rate name="soft_bounced_evts" last_1_min="152" last_5_min="84" last_15_min="84"/>
+<rate name="completed_recips" last_1_min="32598" last_5_min="34472" last_15_min="29908"/>
+<rate name="hard_bounced_recips" last_1_min="166" last_5_min="171" last_15_min="208"/>
+<rate name="delivered_recips" last_1_min="32432" last_5_min="34300" last_15_min="29700"/>
+</rates>
+<gauges>
+<gauge name="ram_utilization" current="3"/>
+<gauge name="total_utilization" current="50"/>
+<gauge name="cpu_utilization" current="14"/>
+<gauge name="av_utilization" current="25912"/>
+<gauge name="case_utilization" current="84"/>
+<gauge name="bm_utilization" current="0"/>
+<gauge name="disk_utilization" current="2"/>
+<gauge name="resource_conservation" current="0"/>
+<gauge name="log_used" current="24"/>
+<gauge name="log_available" current="507G"/>
+<gauge name="conn_in" current="26"/>
+<gauge name="conn_out" current="17"/>
+<gauge name="active_recips" current="2003"/>
+<gauge name="unattempted_recips" current="1860"/>
+<gauge name="attempted_recips" current="143"/>
+<gauge name="msgs_in_work_queue" current="540"/>
+<gauge name="dests_in_memory" current="8182"/>
+<gauge name="kbytes_used" current="395146"/>
+<gauge name="kbytes_free" current="70908022"/>
+<gauge name="msgs_in_policy_virus_outbreak_quarantine" current="55485"/>
+<gauge name="kbytes_in_policy_virus_outbreak_quarantine" current="5581531"/>
+<gauge name="reporting_utilization" current="0"/>
+<gauge name="quarantine_utilization" current="0"/>
+</gauges>
+</status>

@@ -1,0 +1,35 @@
+/*
+    font
+*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+/*
+    reset styles
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5rem;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    line-height: 100vh;
+    background-color: #333;
+}
+
+.green{
+    color: #1fe21f;
+}
+.yellow{
+    color: #f9d71c;
+}
+.red{
+    color: #ff0000;
+}
